@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="container">
+        
+       <spline-viewer class="model" url="https://prod.spline.design/Bo33ul9YWcNdl44J/scene.splinecode"><img src="data:image/png;base64,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" alt="Spline preview" style="width: 100%; height: 100%;"/></spline-viewer>
+       <!-- <nav class="navbar">
+        <div class="logo">MyLogo</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger" onclick="toggleMenu()">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav> -->
+
+
+       <div class="box">
+        <div class="text1"><h1>01</h1></div>
+        <div class="text2">
+            <h2>Trigger</h2>
+            <p> User experience is an ongoing story. <br>
+            and motion design helps create the <br>
+          flow of the story.</p>
+        </div>
+       </div>
+
+       <div class="box2">
+        <div class="text3">
+            <h2>Engage</h2>
+            <p>Motion evokes user's emotion <br>
+            and keep them engaing to <br>
+          your story</p>
+        </div>
+       </div>
+       
+       <div class="box3">
+        <div class="text4">
+            <h2>Guide</h2>
+            <p>Motion triggers your brains orient <br>
+            itself within any given screen and <br>
+            guider them to the actions they <br>
+            need to make</p>
+        </div>
+       </div>
+
+    </div>
+
+       
+        
+        
+
+
+    
+
+    
+    
+
+    
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  
+    <script src="script.js"></script>
+    
+</body>
+</html>
